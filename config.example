@@ -1,0 +1,7 @@
+# CONFIG
+IMAGE="kylemanna/openvpn"
+OVPN_DATA="ovpn-data"
+TCP_CONTAINER="ovpn-tcp443"
+UDP_CONTAINER="ovpn-udp1194"
+DOMAIN=
+

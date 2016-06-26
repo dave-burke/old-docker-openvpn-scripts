@@ -1,0 +1,5 @@
+#Don't publish our domain name
+config.sh
+
+#Don't publish our client certs
+*.ovpn
