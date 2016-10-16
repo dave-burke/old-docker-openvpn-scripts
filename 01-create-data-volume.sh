@@ -2,4 +2,4 @@
 
 source util.sh
 
-docker run --name ${OVPN_DATA} -v /etc/openvpn busybox
+docker create --name ${OVPN_DATA} -v /etc/openvpn busybox
