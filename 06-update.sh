@@ -2,6 +2,8 @@
 
 set -e
 
+cd $(dirname ${0})
+
 source util.sh
 
 docker pull ${IMAGE}
